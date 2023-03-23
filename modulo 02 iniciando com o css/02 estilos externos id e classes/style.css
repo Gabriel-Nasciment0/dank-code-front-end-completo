@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+body {
+    background: lightgray;
+}
+.div1 > h1 {
+    color: aqua;
+}
+
+.div2 h1 {
+    color: orange;
+}
