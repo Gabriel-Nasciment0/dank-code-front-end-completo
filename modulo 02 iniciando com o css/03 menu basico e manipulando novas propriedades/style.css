@@ -1,0 +1,26 @@
+/* regra geral da pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu {
+    /*
+    padrão de uma div 
+    display: block; 
+    */
+
+    width: 600px;
+    /* espaçamento externo */
+    margin: 30px auto;
+    text-align: center;
+}
+
+.menu > a {
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 8px;
+    border-right: 2px solid red;
+    margin: 0 10px;
+}
