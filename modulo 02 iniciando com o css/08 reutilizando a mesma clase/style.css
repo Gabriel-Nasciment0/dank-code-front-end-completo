@@ -8,3 +8,16 @@ html {
     width: 100%;
     height: 100%;
 }
+
+.tipo1 {
+    color: #a8a8a8;
+}
+
+.link {
+    font-size: 30px;
+}
+
+.tipo2 {
+    font-size: 40px;
+    text-decoration: none;
+}
