@@ -7,30 +7,52 @@ body,
 html {
     height: 100%;
 }
+
+input.text[type="text"] {
+    background: green;
+}
+input[type="submit"] {
+    background: blue;
+}
+/* ///////////////////////////////////////// */
 /* tem que ser igual ao atributo */
-/* a[href="https://www.google.com.br"]
+/* 
+a[href="https://www.google.com.br"]
 {
     background: yellow;
 }
 
 [href="https://www.google.com.br"]{
     background-color: red;
-} */
-
+} 
+*/
+/* ///////////////////////////////////////*/
 /* procura entre os espaços o atributo */
 /* 
-a   [attr~="google"] {
+a[attr~="google"] {
     background: blue;
-} */
-
+} 
+*/
+/* ////////////////////////////////////////*/
+/* procura a palavra em qualquer lugar */
 /* 
-    procura a palavra em qualquer lugar
     a[attr*="google"] {
     background: blue;
 } */
-
+/* ////////////////////////////////////////////*/
+/* Quando começa com uma palavra seguido de um acento */
 /* 
-    Quando começa com uma palavra seguido de um acento
     a[attr|="google"] {
     background-color: yellow;
+} */
+/* /////////////////////////////////////////////*/
+/* quando começa com a apalavra */
+/* a[attr^="goo"] {
+    background: red;
+} */
+/* ///////////////////////////////////////////// */
+/* quando terminamos com a palavra */
+/* 
+    a[attr$="google"]{
+    background: red;
 } */

@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body,
+html {
+    height: 100%;
+}
+
+.table1 {
+    width: 500px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+table tr td {
+    background-color: rgb(200, 200, 200);
+    height: 300px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid black;
+}
