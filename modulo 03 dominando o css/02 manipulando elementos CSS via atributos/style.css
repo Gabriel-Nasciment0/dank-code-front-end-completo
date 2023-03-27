@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+/* tem que ser igual ao atributo */
+/* a[href="https://www.google.com.br"]
+{
+    background: yellow;
+}
+
+[href="https://www.google.com.br"]{
+    background-color: red;
+} */
+
+/* procura entre os espaços o atributo */
+/* 
+a   [attr~="google"] {
+    background: blue;
+} */
+
+/* 
+    procura a palavra em qualquer lugar
+    a[attr*="google"] {
+    background: blue;
+} */
+
+/* 
+    Quando começa com uma palavra seguido de um acento
+    a[attr|="google"] {
+    background-color: yellow;
+} */

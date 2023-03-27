@@ -1,0 +1,14 @@
+html,
+body {
+    height: 100%;
+}
+.box {
+    width: 40%;
+    height: 300px;
+    color: gray;
+}
+.box p {
+    /* reseta pro padrao inicial do elemento */
+    color: initial;
+    margin: initial;
+}
