@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body,
+html {
+    height: 100%;
+}
+/* .bg {
+    width: 100%;
+    margin: 0 auto;
+    height: 30vw;
+    background-color: red;
+    background-image: url(imagem/pessoas.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.box {
+    width: 100%;
+    margin: 80px auto;
+    background-color: #6464647c;
+    text-align: center;
+}
+.item {
+    margin: 0 40px;
+    display: inline-block;
+}

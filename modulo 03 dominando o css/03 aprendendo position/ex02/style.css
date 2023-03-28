@@ -13,8 +13,8 @@ html {
     background: #069;
     position: static /*fixed,absolute,relative */;
     top: 70px;
-    /* right: 40px; */
-    /* bottom: 40px; */
+    right: 40px;
+    bottom: 40px;
     left: 30px;
 }
 .box {

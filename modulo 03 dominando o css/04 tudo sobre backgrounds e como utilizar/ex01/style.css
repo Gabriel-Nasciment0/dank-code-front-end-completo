@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body,
+html {
+    height: 100%;
+}
+.bg {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    /* backgrounds */
+    background-color: #ff000091;
+    background-image: url(imagens/dinero.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
