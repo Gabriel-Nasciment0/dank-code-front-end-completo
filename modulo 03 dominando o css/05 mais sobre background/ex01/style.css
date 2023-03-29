@@ -25,6 +25,18 @@ html {
     text-align: center;
 }
 .item {
-    margin: 0 40px;
+    width: 100%;
+
     display: inline-block;
+}
+.item img {
+    width: 40%;
+}
+.item p {
+    display: inline-block;
+    text-align: right;
+    background-color: aliceblue;
+}
+.last {
+    margin-right: 0;
 }
