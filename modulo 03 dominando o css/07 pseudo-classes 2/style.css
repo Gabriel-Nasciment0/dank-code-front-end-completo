@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+ul {
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+
+/* Modifica apenas a tag especificada pela posição numerica */
+ul li:nth-of-type(1) {
+    color: red;
+}
+
+/* modifica uma tag especificada pela posição em relação aos filhos não especificado */
+ul li:nth-child(4) {
+    color: green;
+}
+
+.box {
+    width: 100%;
+}
+.box > div {
+    float: left;
+    width: 33.3%;
+    height: 400px;
+    border: 1px solid black;
+    background: rebeccapurple;
+}
+
+/* modifica a ultima tag especificada */
+.box div:last-of-type {
+    background: red;
+}
+.box p:last-of-type {
+    color: red;
+}
+/* tambem da para especificar outro elemento em uma teg que contenha uma pseudo-classe */
+.box > div:last-of-type p {
+    color: white;
+}
+/* modifica uma tag que não tenha uma classe especifica */
+.box div:not(.tres) {
+    background: goldenrod;
+}
+/* adiciona algum elemento a um tag vazia (não funcionou) */
+.vazio:empty {
+    height: 200px;
+    width: 200px;
+    color: black;
+}
+/* adiciona algum elemento depois de todo o conteudo da tag */
+p.p::after {
+    content: " Gabriel";
+    color: red;
+}
+/* adiciona algum elemento antes de todo o conteudo da tag */
+p.p::before {
+    content: "Olá ";
+}
