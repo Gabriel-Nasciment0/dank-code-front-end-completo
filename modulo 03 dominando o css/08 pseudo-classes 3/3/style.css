@@ -24,6 +24,6 @@ html {
     background: green;
 }
 /* a cada 3 elementos aplica o estilo */
-.parent div:nth-of-type(3n +1) > div.item {
+.parent div:nth-of-type(3n + 1) > div.item {
     background: red;
 }
