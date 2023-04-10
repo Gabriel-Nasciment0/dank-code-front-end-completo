@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body,
 html {
@@ -29,14 +28,33 @@ form input[type="email"] {
     margin-top: 30px;
     width: 80%;
     padding: 10px 30px;
+    border: 1px solid black;
 }
 form input[type="text"]:focus,
-form input[type="email"]:focus {
+form input[type="email"]:focus,
+form select:focus {
     outline: 0;
 }
 form select {
-    width: 80%;
+    width: calc(80% + 26px);
     margin-top: 30px;
     padding: 10px 13px;
     display: inline-block;
+    border: 1px solid black;
+}
+
+form h2 {
+    padding-top: 20px;
+    color: #015c3d;
+}
+.radio {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.radio span {
+    margin-left: 13px;
+    font-size: 17px;
+    color: #015c3d;
 }
