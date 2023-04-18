@@ -41,17 +41,21 @@
             <h2>Oque voce gosta de comer?</h2>
             <div class="radio checkbox">
                 <div>
-                    <input type="checkbox" name="cidade" id="cidade" value="arroz"><span>Arroz</span>
+                    <input type="checkbox" name="cidade[]" id="cidade" value="arroz"><span>Arroz</span>
                 </div>
                 <div>
-                    <input type="checkbox" name="cidade" id="cidade" value="feijao"><span>Feijão</span>
+                    <input type="checkbox" name="cidade[]" id="cidade" value="feijao"><span>Feijão</span>
                 </div>
                 <div>
-                    <input type="checkbox" name="cidade" id="cidade" value="batata"><span>Batata</span>
+                    <input type="checkbox" name="cidade[]" id="cidade" value="batata"><span>Batata</span>
                 </div>
             </div>
             <div>
                 <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Quer dar alguma opinião?"></textarea>
+            </div>
+            <div class="arquivo">
+                <label for="file">importe um arquivo</label>
+                <input type="file" name="file" id="file">
             </div>
             <div>
                 <input type="submit" name="acao" value="enviar">
