@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+@font-face {
+    font-family: "metal";
+    src: url(fonts/MetalMania-Regular.ttf);
+}
+h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+p {
+    font-family: metal;
+}

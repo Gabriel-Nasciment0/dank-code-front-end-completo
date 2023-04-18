@@ -10,7 +10,7 @@ html {
 form {
     width: 96%;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 30px auto;
     text-align: center;
 }
 form fieldset {
@@ -29,10 +29,12 @@ form input[type="email"] {
     width: 80%;
     padding: 10px 30px;
     border: 1px solid black;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 form input[type="text"]:focus,
 form input[type="email"]:focus,
-form select:focus {
+form select:focus,
+form textarea:focus {
     outline: 0;
 }
 form select {
@@ -41,8 +43,14 @@ form select {
     padding: 10px 13px;
     display: inline-block;
     border: 1px solid black;
+    color: darkgray;
 }
-
+form select option:nth-of-type(3) {
+    color: red;
+}
+form select option[disabled] {
+    color: blue;
+}
 form h2 {
     padding-top: 20px;
     color: #015c3d;
@@ -57,4 +65,24 @@ form h2 {
     margin-left: 13px;
     font-size: 17px;
     color: #015c3d;
+}
+form textarea {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    width: 80%;
+    height: 140px;
+    padding: 10px 30px;
+    resize: none;
+}
+form input[type="submit"] {
+    cursor: pointer;
+    margin-top: 30px;
+    border: 0;
+    width: 140px;
+    height: 40px;
+    border: 2px solid rgb(130, 130, 130);
+    font-size: 16px;
+    color: white;
+    background: rgb(140, 140, 140);
 }
