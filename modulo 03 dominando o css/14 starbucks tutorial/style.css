@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body,
+html {
+    height: 100%;
+    overflow: hidden;
+}
+header {
+    height: 200px;
+    padding: 20px 0;
+}
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0.2%;
+}
+.logo {
+    width: 50%;
+}
+.menu {
+    width: 50%;
+    padding-top: 30px;
+    text-align: right;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.sobre {
+    height: calc(100% - 200px);
+    position: relative;
+}
+.extras {
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background: #017143;
+}
+.social-media {
+    position: absolute;
+    top: 200px;
+    right: 510px;
+}
+.social-media img {
+    display: block;
+    width: 15px;
+    margin: 10px 0;
+}
+.texto-sobre {
+    margin-top: 100px;
+    width: 600px;
+}
+.texto-sobre h1 {
+    font-size: 50px;
+}
+span {
+    color: #017143;
+}
+.texto-sobre p {
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+input[type="button"] {
+    border: 0;
+    background: #017143;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
