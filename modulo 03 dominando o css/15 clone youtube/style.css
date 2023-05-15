@@ -139,7 +139,22 @@ header {
     padding: 0 1.25rem;
     border: 1px solid #777;
     background: #f8f8f8;
+    border-left: none;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     cursor: pointer;
+}
+.botao-pesquisa:hover {
+    background-color: #f0f0f0;
+}
+.icones-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    gap: 1.5rem;
+}
+.menu-canal {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
 }
