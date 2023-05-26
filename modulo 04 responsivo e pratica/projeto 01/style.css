@@ -127,7 +127,6 @@ body {
     background-size: 100% 100%;
 }
 .section-1 {
-    
     padding: 90px 0;
 }
 .section-1 h2 {
@@ -140,15 +139,24 @@ body {
     text-align: center;
 }
 .container-single {
-    float: left;
+    display: inline-block;
+    margin: -4px;
     width: 33.3%;
     padding: 30px;
 }
 .container-single p {
-    display: inline-block;
     padding: 15px 25px;
     text-align: justify;
 }
 .container-single img {
     width: 70px;
+}
+.footer {
+    padding: 20px 0;
+    border-top: 2px solid #888888;
+    text-align: center;
+    color: #888;
+}
+.footer p {
+    margin-top: 8px;
 }
