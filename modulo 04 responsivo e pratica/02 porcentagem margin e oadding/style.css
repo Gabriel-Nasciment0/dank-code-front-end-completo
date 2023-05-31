@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 50%;
+    height: 400px;
+    background: orange;
+}
+.box{
+    display: inline-block;
+    width: 50%;
+    margin-top: 50%;
+    padding-top: 25%;
+    background: gray;
+}
