@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+}
+.box {
+    width: 100vw;
+    height: 100vh;
+    background: red;
+}
+.box2 {
+    width: 200%;
+    height: 9000px;
+}
+/* não leva em conta a scrool bar */
