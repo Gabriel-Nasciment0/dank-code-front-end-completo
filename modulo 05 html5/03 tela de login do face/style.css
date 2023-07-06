@@ -55,3 +55,15 @@ main{
     background: linear-gradient(white,#D3D8E8);
     padding: 40px 0;
 }
+.img-conect{
+    float: left;
+    width: 30%;
+}
+.img-conect img{
+    max-width: 100%;
+}
+.abrir-conta{
+    float: left;
+    width: 70%;
+    padding-left: 40%;
+}
