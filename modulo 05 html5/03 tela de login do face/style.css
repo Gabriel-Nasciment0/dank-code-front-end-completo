@@ -51,19 +51,38 @@ header {
 .form-element input[type="submit"]:hover {
     background: #215ab2;
 }
-main{
-    background: linear-gradient(white,#D3D8E8);
+main {
+    background: linear-gradient(white, #d3d8e8);
     padding: 40px 0;
 }
-.img-conect{
+.img-conect {
     float: left;
     width: 30%;
 }
-.img-conect img{
+.img-conect img {
     max-width: 100%;
 }
-.abrir-conta{
+.abrir-conta {
     float: left;
     width: 70%;
     padding-left: 40%;
+}
+.abrir-conta h2 {
+    font-size: 35px;
+}
+.abrir-conta h2 {
+    font-size: 19px;
+    color: rgb(30, 30, 30);
+    margin-top: 8px;
+    font-weight: normal;
+}
+w50 {
+    width: 50%;
+    padding: 0 5px;
+    float: left;
+}
+w100 {
+    width: 100%;
+    padding: 0 5px;
+    float: left;
 }
