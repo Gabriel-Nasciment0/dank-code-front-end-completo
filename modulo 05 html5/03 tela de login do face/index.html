@@ -59,6 +59,24 @@
                     <div class="w100">
                         <input type="password" placeholder="Senha">
                     </div><!--w100-->
+                    <div class="w100">
+                        <h2>Data de nascimento</h2>
+                        <select name="nascimento-dia" id="inascimento" class="nascimento">
+                            <script src="script.php"></script>
+                            <option value="<? php echo $i ?>"><? php echo $i ?></option>
+                        </select>
+                        <select name="nascimento-mes" id="inascimento" class="nascimento">
+                            <option value="0">junho</option>
+                        </select>
+                        <select name="nascimento-ano" id="inascimento" class="nascimento">
+                            <option value="1">1990</option>
+                        </select>
+                        <div class="clear"></div>
+                    </div><!--w100-->
+                    <div class="w100">
+                        <input type="submit" name="submit" id="isubmit" value="Cadastrar">
+                    </div><!--w100-->
+                    <div class="clear"></div>
                 </form><!--criar-conta-->
             </div><!--abrir-conta-->
             <div class="clear"></div>
