@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        .transform {
+            transform: translate(-50%, -50%);
+            width: 40%;
+            max-width: 500px;
+            height: 500px;
+            border: 3px solid #ccc;
+            border-radius: 8px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            animation-name:animacao;
+            animation-duration: 3s;
+        }
+        @keyframes animacao{
+            0%{
+                transform: translate(-50%,-50%) rotateY(0deg);
+            }
+            50%{
+                transform: translate(-50%,-50%) rotateY(100deg);
+            }
+            100%{
+                transform: translate(-50%,-50%) rotateY(0deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="transform">
+        <p>oi meu chapa</p>
+    </div>
+</body>
+
+</html>
