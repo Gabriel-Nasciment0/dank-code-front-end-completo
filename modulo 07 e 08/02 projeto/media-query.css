@@ -1,0 +1,10 @@
+@media screen and (max-width:510px) {
+    header{
+        text-align: center;
+    }
+    .logo-1,.logo-2{
+        display: inline-block;
+        float: none;
+        margin-top: 10px;
+    }
+}
