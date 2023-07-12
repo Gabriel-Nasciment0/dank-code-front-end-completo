@@ -25,33 +25,33 @@ header {
     float: left;
     width: 160px;
     height: 60px;
-    background:  url(imagens/logo1.png) no-repeat center;
+    background: url(imagens/logo1.png) no-repeat center;
     background-size: contain;
 }
 .logo-2 {
     float: right;
     width: 160px;
     height: 60px;
-    background:  url(imagens/logo2.png) no-repeat center;
+    background: url(imagens/logo2.png) no-repeat center;
     background-size: contain;
 }
 .cover-form {
     width: 100%;
-    padding: 0 2%;
+
 }
 .bg {
+    position: relative;
     background: url(imagens/pexels-max-rahubovskiy-6283961.jpg) no-repeat center;
     background-size: cover;
     height: 600px;
 }
 .form-container {
-    position: relative;
-    z-index: 2;
-    top: -5%;
-    float: right;
+    position: absolute;
+    right: 30px;
+    top: -2.5%;
     width: 400px;
     margin-right: 40px;
-    height: 110%;
+    height: 105%;
     background: white;
     box-shadow: 1px 1px 4px 1px rgb(180, 180, 180);
 }
@@ -63,7 +63,7 @@ header {
     background: rgb(210, 210, 210);
 }
 .form-container form {
-    margin-top: 8px;
+    margin-top: 20px;
     padding: 15px;
 }
 .form-container form label {
@@ -96,22 +96,29 @@ header {
     height: 50px;
 }
 section.chamada {
-    display: inline-block;
     width: 100%;
-    position: relative;
+
     z-index: 1;
-    top: -60px;
-    padding: 50px 0;
+
+    padding: 70px 0 50px 0;
     text-align: center;
-     background: #7c6757;
-   
+    background: #7c6757;
 }
 
-section.chamada > h2 {
+section.chamada h2 {
     display: inline-block;
-    width: 96%;
+    width: 98%;
     max-width: 700px;
     color: white;
     font-size: 28px;
+    font-weight: normal;
+}
+section.chamada p {
+    display: inline-block;
+    width: 98%;
+    max-width: 700px;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
     font-weight: normal;
 }

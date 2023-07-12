@@ -1,8 +1,32 @@
-@media screen and (max-width:510px) {
-    header{
+@media screen and (max-width: 900px) {
+    .bg {
+        height: auto;
+        text-align: center;
+        padding: 40px 0;
+    }
+    .form-container {
+        position: static;
+        display: inline-block;
+        height: auto;
+        width: 96%;
+        max-width: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    header {
         text-align: center;
     }
-    .logo-1,.logo-2{
+    .logo-1,
+    .logo-2 {
         display: inline-block;
         float: none;
         margin-top: 10px;
