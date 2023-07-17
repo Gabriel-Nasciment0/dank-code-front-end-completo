@@ -14,11 +14,11 @@ html {
 }
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 header {
-    background: rgb(180, 180, 180);
+    background: rgb(220, 220, 220);
     padding: 10px 2% 40px 2%;
 }
 .logo-1 {
@@ -120,4 +120,31 @@ section.chamada p {
     font-size: 18px;
     margin-top: 10px;
     font-weight: normal;
+}
+.flex-mosaico {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item01-mosaico {
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+}
+.item02-mosaico {
+    background-color: #215170;
+    width: 40%;
+    padding: 80px 40px;
+    color: white;
+    box-shadow: 1px 1px 5px black;
+}
+.reverse {
+    flex-direction: row-reverse;
+}
+footer{
+    text-align: center;
+    padding: 20px 0;
+    background: #d3d3d375;
+}
+footer > p{
+    margin-top: 8px;
 }
