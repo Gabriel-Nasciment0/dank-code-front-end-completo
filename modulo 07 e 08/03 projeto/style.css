@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+}
+.clear {
+    clear: both;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    height: 90vh;
+    background: url(imagens/pexels-luis-gomes-546819.jpg) no-repeat center;
+    background-size: cover;
+    padding: 40px 2%;
+}
+header nav {
+    float: right;
+}
+header .logo {
+    float: left;
+    width: 160px;
+    height: 100px;
+    background: #ccc url(imagens/pexels-daniel-nettesheim-1162361.jpg) no-repeat
+        center;
+    background-size: cover;
+}
+header nav li {
+    float: left;
+    padding: 0 20px;
+}
+header nav ul {
+    list-style-type: none;
+}
+header li a {
+    color: white;
+    text-decoration: none;
+}
+.chamada01 {
+    max-width: 600px;
+    float: right;
+    margin: 140px 150px;
+}
+.chamada01 h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+}
+.chamada01 p {
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+.sessao01 {
+    width: 100%;
+    background: #472562;
+    padding: 20px 0;
+}
+.texto-sessao01 {
+    float: left;
+    width: 50%;
+    color: white;
+}
+.texto-sessao01 > h2 {
+    font-weight: 300;
+}
+.texto-sessao01 p {
+    font-size: 13px;
+    margin-top: 20px;
+}
+.texto-sessao01 ul {
+    list-style-position: inside;
+    font-size: 13px;
+}
+.texto-sessao01 ul li {
+    float: left;
+    width: 100%;
+}
+.devive-sessao01 img {
+  
+    float: left;
+    width: 50%;
+    height: 300px;
+
+}
