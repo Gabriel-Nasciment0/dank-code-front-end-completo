@@ -63,7 +63,7 @@ header li a {
 .sessao01 {
     width: 100%;
     background: #472562;
-    padding: 20px 0;
+    padding: 0px 0;
 }
 .texto-sessao01 {
     float: left;
@@ -85,10 +85,10 @@ header li a {
     float: left;
     width: 100%;
 }
-.devive-sessao01 img {
-  
+.devive-sessao01 {
     float: left;
     width: 50%;
-    height: 300px;
-
+    height: 600px;
+    background: url(imagens/device.png) no-repeat;
+    background-size: 100% auto;
 }
