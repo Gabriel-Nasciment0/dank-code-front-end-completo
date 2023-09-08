@@ -63,7 +63,11 @@ header li a {
 .sessao01 {
     width: 100%;
     background: #472562;
-    padding: 0px 0;
+    padding: 0 2%;
+    height: 400px;
+}
+.sessao01 .container {
+    max-width: 1000px;
 }
 .texto-sessao01 {
     float: left;
@@ -85,10 +89,23 @@ header li a {
     float: left;
     width: 100%;
 }
-.devive-sessao01 {
+.btn1-txt{
+    background: #ff703d;
+    width: 165px;
+    height: 44px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 40px;
+} 
+.device-sessao01 {
+    position: relative;
+    top: -30px;
     float: left;
     width: 50%;
-    height: 600px;
+    height: 430px;
     background: url(imagens/device.png) no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 100%;
 }
