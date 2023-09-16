@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+    .sessao01 {
+        padding: 40px 2%;
+        height: auto;
+        text-align: center;
+    }
+    .texto-sessao01 {
+        width: 100%;
+        display: inline-block;
+        position: static;
+        float: none;
+        margin-top: 0;
+    }
+    .btn1-txt{
+        display: inline-block;
+    }
+}

@@ -70,36 +70,43 @@ header li a {
     max-width: 1000px;
 }
 .texto-sessao01 {
+    position: relative;
+    left: 45px;
     float: left;
     width: 50%;
+    margin-top: 20px;
+    padding-left: 80px;
     color: white;
 }
 .texto-sessao01 > h2 {
+    font-size: 26px;
     font-weight: 300;
 }
 .texto-sessao01 p {
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 20px;
 }
 .texto-sessao01 ul {
     list-style-position: inside;
-    font-size: 13px;
+    font-size: 15px;
 }
 .texto-sessao01 ul li {
     float: left;
+    margin-top: 8px;
     width: 100%;
 }
-.btn1-txt{
+.btn1-txt {
     background: #ff703d;
     width: 165px;
     height: 44px;
     color: white;
     cursor: pointer;
-    margin-top: 10px;
+    font-size: 13px;
+    margin-top: 30px;
     text-align: center;
     line-height: 44px;
     border-radius: 40px;
-} 
+}
 .device-sessao01 {
     position: relative;
     top: -30px;
