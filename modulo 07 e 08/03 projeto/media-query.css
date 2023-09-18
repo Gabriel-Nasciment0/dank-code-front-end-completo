@@ -1,17 +1,66 @@
 @media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+        height:auto;
+        min-height: 90vh;
+        padding: 40px 2%;
+    }
+    nav.desktop-menu{
+        display: none;
+    }
+    nav.mobile-menu{
+        display: block;
+    }
+    .chamada01 {
+        max-width: none;
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin: 100px 0px;
+    }
+     .chamada01 h1 {
+        font-size: 30px;
+        color: white;
+        padding: 0px 10px;
+        font-weight: 300;
+    }
+    .chamada01 p {
+        font-size: 15px;
+        color: white;
+        margin-top: 10px;
+    } 
+    .sessao01 {
+        width: 100%;
+        background: #472562;
+        padding: 0 2%;
+        height: 400px;
+    }
     .sessao01 {
         padding: 40px 2%;
         height: auto;
         text-align: center;
     }
     .texto-sessao01 {
-        width: 100%;
         display: inline-block;
+        width: 100%;
         position: static;
         float: none;
         margin-top: 0;
+        padding-left: 0;
     }
-    .btn1-txt{
+    .device-sessao01 {
+        display: none;
+    }
+    .texto-sessao01 ul {
         display: inline-block;
+        margin-top: 10px;
+    }
+    .texto-sessao01 ul li {
+        float: none;
+        text-align: left;
+    }
+    .btn1-txt {
+        display: inline-block;
+        line-height: 0px;
     }
 }

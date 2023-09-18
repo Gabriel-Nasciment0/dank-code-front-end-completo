@@ -26,6 +26,9 @@ header {
 header nav {
     float: right;
 }
+nav.mobile-menu {
+    display: none;
+}
 header .logo {
     float: left;
     width: 160px;
@@ -34,14 +37,14 @@ header .logo {
         center;
     background-size: cover;
 }
-header nav li {
+header nav.desktop-menu li {
     float: left;
     padding: 0 20px;
 }
-header nav ul {
+header nav.desktop-menu ul {
     list-style-type: none;
 }
-header li a {
+header nav.desktop-menu li a {
     color: white;
     text-decoration: none;
 }
@@ -87,7 +90,8 @@ header li a {
     margin-top: 20px;
 }
 .texto-sessao01 ul {
-    list-style-position: inside;
+    list-style-position: outside;
+    padding-left: 15px;
     font-size: 15px;
 }
 .texto-sessao01 ul li {
