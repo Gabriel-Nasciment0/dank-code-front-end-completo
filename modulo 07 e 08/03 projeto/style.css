@@ -27,6 +27,7 @@ header nav {
     float: right;
 }
 nav.mobile-menu {
+    cursor: pointer;
     margin-right: 10px;
     display: none;
     width: 32px;
@@ -35,6 +36,7 @@ nav.mobile-menu {
     background-size: cover;
 }
 nav.mobile-menu ul {
+    display: none;
     position: absolute;
     width: 100%;
     left: 0;
@@ -43,6 +45,9 @@ nav.mobile-menu ul {
     list-style-type: none;
     background: white;
     text-align: center;
+}
+nav.mobile-menu:hover ul {
+    display: block;
 }
 nav.mobile-menu ul li {
     padding: 8px 0;
@@ -142,4 +147,22 @@ header nav.desktop-menu li a {
     height: 430px;
     background: url(imagens/device.png) no-repeat;
     background-size: 100% 100%;
+}
+.sessao02 {
+    padding-top: 0 2%;
+    background: white;
+    text-align: center;
+}
+.sessao02 h2 {
+    color: #472663;
+    font-weight: 300;
+}
+.sessao02 p {
+    display: inline-block;
+    margin-top: 30px;
+    max-width: 700px;
+}
+.sessao02 img{
+    width: 100%;
+    margin-top: 40px;
 }
