@@ -99,6 +99,7 @@ header nav.desktop-menu li a {
 }
 .sessao01 .container {
     max-width: 1000px;
+    height: calc(100%+30px);
 }
 .texto-sessao01 {
     position: relative;
@@ -144,7 +145,7 @@ header nav.desktop-menu li a {
     top: -30px;
     float: left;
     width: 50%;
-    height: 430px;
+    height: 100%;
     background: url(imagens/device.png) no-repeat;
     background-size: 100% 100%;
 }
@@ -162,7 +163,45 @@ header nav.desktop-menu li a {
     margin-top: 30px;
     max-width: 700px;
 }
-.sessao02 img{
+.sessao02 img {
+    position: relative;
+    top: 70px;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 10px;
+}
+.sessao03 {
+    width: 100%;
+}
+.part01 {
+    float: left;
+    width: 50%;
+    padding: 140px 0 90px 0;
+    background: #835fa7;
+    color: white;
+}
+.wraper-part01 {
+    float: right;
+    max-width: 600px;
+    padding-right: 30px;
+}
+.part01 h2 {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 23px;
+}
+.part01 p {
+    font-size: 15px;
+    line-height: 35px;
+    margin-top: 10px;
+}
+.part02 {
+    float: left;
+    width: 50%;
+    padding: 140px 0 90px 0;
+    background: white;
+}
+.sobre-autor {
+    float: left;
+    max-width: 600px;
+    padding-left: 40px;
 }
