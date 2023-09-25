@@ -117,4 +117,15 @@
         top: 50px;
         margin-top: 20px;
     }
+    footer {
+        text-align: center;
+    }
+    footer p:first-child {
+        float: none;
+    }
+    footer p:last-child {
+        margin-top: 5px;
+        float: none;
+    }
+    
 }

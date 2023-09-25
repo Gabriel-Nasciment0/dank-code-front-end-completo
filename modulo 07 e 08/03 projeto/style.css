@@ -62,8 +62,8 @@ header .logo {
     float: left;
     width: 160px;
     height: 100px;
-    background: #ccc url(imagens/pexels-daniel-nettesheim-1162361.jpg) no-repeat
-        center;
+    border-radius: 335%;
+    background: #ccc url(imagens/pexels-daniel-nettesheim-1162361.jpg) no-repeat;
     background-size: cover;
 }
 header nav.desktop-menu li {
@@ -233,7 +233,9 @@ header nav.desktop-menu li a {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: green;
+    background: url(imagens/pexels-jordy-toscano-18411142.jpg) no-repeat 100%
+        100%;
+    background-size: cover;
 }
 .texto-autor {
     float: left;
@@ -347,4 +349,17 @@ header nav.desktop-menu li a {
     height: 100%;
     background: white;
     border: 5px solid rgb(200, 200, 200);
+}
+footer {
+    color: white;
+    padding: 40px 2%;
+    background: #192123;
+}
+footer p:first-child {
+    float: left;
+    font-size: 14px;
+}
+footer p:last-child {
+    font-size: 14px;
+    float: right;
 }
