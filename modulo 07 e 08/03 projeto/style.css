@@ -8,6 +8,7 @@ body,
 html {
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 .clear {
     clear: both;
@@ -175,6 +176,7 @@ header nav.desktop-menu li a {
 .part01 {
     float: left;
     width: 50%;
+    height: 500p\x;
     padding: 140px 0 90px 0;
     background: #835fa7;
     color: white;
@@ -197,6 +199,7 @@ header nav.desktop-menu li a {
 .part02 {
     float: left;
     width: 50%;
+    height: 500p\x;
     padding: 140px 0 90px 0;
     background: white;
 }
@@ -261,9 +264,87 @@ header nav.desktop-menu li a {
     background: rgb(170, 170, 170);
 }
 
-.sessao04{
-    
+.sessao04 {
     background: #472563;
     padding: 100px 0;
-
+}
+.form {
+    padding-left: 10px;
+    float: left;
+    width: 50%;
+    margin: 15px;
+}
+.form h2 {
+    color: white;
+    font-size: 23px;
+    font-weight: 300;
+}
+.form p {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 400px;
+    padding-right: 10px;
+}
+.form input[type="text"],
+.form input[type="email"] {
+    width: 100%;
+    max-width: 480px;
+    height: 58px;
+    margin-bottom: 8px;
+    padding-left: 8px;
+    line-height: 58px;
+    border: 1px solid rgb(200, 200, 200);
+}
+.form textarea {
+    width: 100%;
+    max-width: 480px;
+    padding: 15px;
+    border: 1px solid rgb(200, 200, 200);
+    height: 160px;
+}
+.form input[type="submit"] {
+    display: block;
+    background: #ff703d;
+    width: 165px;
+    height: 44px;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    margin-top: 15px;
+    border-radius: 40px;
+    border: none;
+}
+.map-wraper {
+    padding: 0 10px;
+    float: right;
+    width: 46%;
+}
+.map-wraper h2 {
+    color: white;
+    font-size: 23px;
+    font-weight: 300;
+}
+.map-wraper3 {
+    position: relative;
+    width: 100%;
+    max-width: 480px;
+    margin-top: 10px;
+}
+.map-wraper2 {
+    background: green;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 100%;
+}
+.map {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border: 5px solid rgb(200, 200, 200);
 }
