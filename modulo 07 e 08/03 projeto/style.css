@@ -182,7 +182,7 @@ header nav.desktop-menu li a {
 .wraper-part01 {
     float: right;
     max-width: 600px;
-    padding-right: 30px;
+    padding: 0 30px;
 }
 .part01 h2 {
     font-weight: 300;
@@ -210,7 +210,7 @@ header nav.desktop-menu li a {
     width: 100%;
 }
 .wraper-titulo-autor {
-    width: calc(100%-40px);
+    width: 100%;
     float: left;
 }
 .titulo-autor h2 {
@@ -258,5 +258,12 @@ header nav.desktop-menu li a {
 }
 .slider-bullets span:hover {
     cursor: pointer;
-    background: black;
+    background: rgb(170, 170, 170);
+}
+
+.sessao04{
+    
+    background: #472563;
+    padding: 100px 0;
+
 }

@@ -1,17 +1,18 @@
 @media screen and (max-width: 768px) {
-    body,html{
+    body,
+    html {
         overflow-x: hidden;
     }
     header {
         width: 100%;
-        height:auto;
+        height: auto;
         min-height: 90vh;
         padding: 40px 2%;
     }
-    nav.desktop-menu{
+    nav.desktop-menu {
         display: none;
     }
-    nav.mobile-menu{
+    nav.mobile-menu {
         display: block;
     }
     .chamada01 {
@@ -21,7 +22,7 @@
         float: none;
         margin: 100px 0px;
     }
-     .chamada01 h1 {
+    .chamada01 h1 {
         font-size: 30px;
         color: white;
         padding: 0px 10px;
@@ -31,7 +32,7 @@
         font-size: 15px;
         color: white;
         margin-top: 10px;
-    } 
+    }
     .sessao01 {
         width: 100%;
         background: #472562;
@@ -66,7 +67,21 @@
         display: inline-block;
         line-height: 0px;
     }
-    .sessao02{
+    .sessao02 {
         padding: 40px 2%;
+    }
+}
+@media screen and (max-width: 580px) {
+    .part01 {
+        width: 100%;
+        padding: 40px 0;
+    }
+    .part02 {
+        width: 100%;
+        padding: 40px 0;
+    }
+    .sessao02 img {
+        top: 50px;
+        margin-top: 20px;
     }
 }
