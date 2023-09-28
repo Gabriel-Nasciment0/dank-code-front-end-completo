@@ -1,9 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-hrml,body{
+hrml,
+body {
     height: 100%;
+}
+.artigo01 {
+    width: 100%;
+    
    
 }
