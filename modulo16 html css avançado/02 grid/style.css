@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "header header"
+        "content01 content02"
+        "footer footer";
+}
+.header {
+    grid-area: header;
+}
+.content01 {
+    grid-area: content01;
+}
+.content02 {
+    grid-area: content02;
+}
+.footer {
+    grid-area: footer;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="myCanvas" width="800" height="800">
+        Your browser does not support the HTML canvas tag.</canvas>
+
+    <script>
+        //circulo
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(105, 200, 90, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(205, 200, 90, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(305, 200, 90, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(405, 200, 90, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(505, 200, 90, 0, 2 * Math.PI);
+        ctx.stroke();
+//font
+        ctx.font = "30px Arial";
+        ctx.fillText("Hello World", 300, 50);
+    </script>
+
+</body>
+
+</html>
