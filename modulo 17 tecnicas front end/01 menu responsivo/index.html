@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div.container {
+            max-width: 1280px;
+            padding: 0 2%;
+            margin: 0 auto;
+        }
+
+        div.clear {
+            clear: both;
+        }
+
+        header {
+            padding: 10px 0;
+            background: #1565c0;
+        }
+
+        .logo {
+            float: left;
+            color: white;
+        }
+
+        nav.menu-desktop {
+            float: right;
+        }
+
+        nav.menu-desktop>ul {
+            position: relative;
+            top: 4px;
+            list-style-type: none;
+        }
+
+        nav.menu-desktop ul>li {
+            position: relative;
+            display: inline-block;
+            font-size: 16px;
+            padding: 0 15px;
+        }
+
+        nav.menu-desktop ul>li:hover>ul.submenu-desktop {
+            display: block;
+        }
+
+        nav.menu-desktop a {
+            text-decoration: none;
+            color: white;
+        }
+
+        ul.submenu-desktop li {
+            padding: 8px 0;
+            border-bottom: 1px solid white;
+        }
+
+        ul.submenu-desktop {
+            display: none;
+            position: absolute;
+            left: 14px;
+            top: 20px;
+            width: 100px;
+           
+            background: #1565c0;
+        }
+
+        nav.menu-desktop a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+
+            <div class="logo">
+                <h2>logomarca</h2>
+            </div><!--logo-->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Home</a>
+                        <ul class="submenu-desktop">
+                            <li><a href="#">sessao01</a></li>
+                            <li><a href="#">sessao02</a></li>
+                            <li><a href="#">sessao03</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Sobre</a>
+                        <ul class="submenu-desktop">
+                            <li><a href="#">sessao01</a></li>
+                            <li><a href="#">sessao02</a></li>
+                            <li><a href="#">sessao03</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contato</a>
+                        <ul class="submenu-desktop">
+                            <li><a href="#">sessao01</a></li>
+                            <li><a href="#">sessao02</a></li>
+                            <li><a href="#">sessao03</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav><!--menu-desktop-->
+            <div class="clear"></div>
+        </div><!--container-->
+    </header>
+</body>
+
+</html>
