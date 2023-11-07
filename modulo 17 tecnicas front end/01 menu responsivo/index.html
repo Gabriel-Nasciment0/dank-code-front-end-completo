@@ -70,12 +70,34 @@
             left: 14px;
             top: 20px;
             width: 100px;
-           
+
             background: #1565c0;
         }
 
         nav.menu-desktop a:hover {
             text-decoration: underline;
+        }
+
+        /*  estilo menu mobile */
+        .menu-mobile {
+            display: none;
+            width: 25px;
+            height: 25px;
+        }
+
+        @media screen and (max-width:768px) {
+            nav.menu-desktop {
+                display: none;
+                float: right;
+            }
+
+            nav.menu-mobile {
+                display: block;
+            }
+
+            nav.menu-mobile>img {
+                cursor: pointer;
+            }
         }
     </style>
 </head>
@@ -87,6 +109,7 @@
             <div class="logo">
                 <h2>logomarca</h2>
             </div><!--logo-->
+
             <nav class="menu-desktop">
                 <ul>
                     <li><a href="#">Home</a>
@@ -112,6 +135,35 @@
                     </li>
                 </ul>
             </nav><!--menu-desktop-->
+            <nav class="menu-mobile">
+                <ul>
+                    <li>
+                        <a href="Home"></a>
+                        <ul class="submenu-mobile">
+                            <li><a href="#">sessao01</a></li>
+                            <li><a href="#">sessao02</a></li>
+                            <li><a href="#">sessao03</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="sobre"></a>
+                        <ul class="submenu-mobile">
+                            <li><a href="#">sessao01</a></li>
+                            <li><a href="#">sessao02</a></li>
+                            <li><a href="#">sessao03</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contato"></a>
+                        <ul class="submenu-mobile">
+                            <li><a href="#">sessao01</a></li>
+                            <li><a href="#">sessao02</a></li>
+                            <li><a href="#">sessao03</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <img src="imagens/bars-solid.svg" alt="">
+            </nav><!--menu-mobile-->
             <div class="clear"></div>
         </div><!--container-->
     </header>
