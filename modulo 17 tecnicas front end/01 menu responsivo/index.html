@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
     <title>Document</title>
     <style>
         * {
@@ -81,25 +82,26 @@
         /*  estilo menu mobile */
         .menu-mobile {
             display: none;
+            float: right;
             width: 25px;
             height: 25px;
+        }
+
+        nav.menu-mobile>i {
+            cursor: pointer;
+            font-size: 30px;
+            color: white;
         }
 
         @media screen and (max-width:768px) {
             nav.menu-desktop {
                 display: none;
-                float: right;
             }
 
             nav.menu-mobile {
                 display: block;
             }
 
-            nav.menu-mobile>img {
-                cursor: pointer;
-                font-size: 25px;
-                color: white;
-            }
         }
     </style>
 </head>
@@ -111,6 +113,7 @@
             <div class="logo">
                 <h2>logomarca</h2>
             </div><!--logo-->
+            <div class="clear"></div>
 
             <nav class="menu-desktop">
                 <ul>
@@ -137,7 +140,9 @@
                     </li>
                 </ul>
             </nav><!--menu-desktop-->
+            <div class="clear"></div>
             <nav class="menu-mobile">
+                <i class="fa-thin fa-bars"></i>
                 <ul>
                     <li>
                         <a href="Home"></a>
@@ -164,10 +169,10 @@
                         </ul>
                     </li>
                 </ul>
-                <img src="imagens/bars-solid.svg" alt="">
             </nav><!--menu-mobile-->
             <div class="clear"></div>
         </div><!--container-->
+        <div class="clear"></div>
     </header>
 </body>
 

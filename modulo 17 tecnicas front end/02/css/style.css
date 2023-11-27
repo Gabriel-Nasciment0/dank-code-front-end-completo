@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+}
+header {
+    height: 140px;
+    background: #ccc;
+}
+section {
+    height: 900px;
+    background: blue;
+}
+section > p {
+    position: absolute;
+    bottom: 0;
+}
+div {
+    height: calc(100% - 140px);
+    overflow: auto;
+}
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: orange;
+    height: 140px;
+}
