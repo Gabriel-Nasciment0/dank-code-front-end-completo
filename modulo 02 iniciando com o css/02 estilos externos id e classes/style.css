@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-    background: lightgray;
+    background: gray;
 }
 .div1 > h1 {
     color: aqua;
