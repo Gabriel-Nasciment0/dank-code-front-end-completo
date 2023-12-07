@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- <div ng-app="">
+        <p>A soma de 5 + 5 e: {{ 5 + 5 + 5}}</p>
+    </div> -->
+    <div ng-app="" ng-init="myCol='lightblue'">
+        <input type="text" style="background-color: {{myCol}}" ng-model="myCol" value="{{myCol}}">
+    </div>
+
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</body>
+
+</html>
