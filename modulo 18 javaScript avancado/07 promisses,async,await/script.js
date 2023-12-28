@@ -8,6 +8,3 @@ function testes(){
         }
     })
 }
-
-
- b 
