@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-query.css">
     <title>Monguilhott </title>
@@ -20,10 +25,10 @@
                 </div><!--logo-->
                 <nav>
                     <ul>
-                        <li><a href="# ">invisalign</a></li>
-                        <li><a href="#">Beneficios</a></li>
-                        <li><a href="#">Serve para mim?</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li class="selected"><span></span><a href="# ">invisalign</a></li>
+                        <li><span></span><a href="#">Beneficios</a></li>
+                        <li><span></span><a href="#">Serve para mim?</a></li>
+                        <li><span></span><a href="#">Contato</a></li>
                     </ul>
                 </nav>
 
@@ -49,6 +54,14 @@
 
     <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/Javascript">
+        $('nav a').hover(function(){
+            $('nav li').removeClass('selected'):
+            $(this).parent().addClass('selected');
+        })
+
+
+    </script>
 </body>
 
 </html>
