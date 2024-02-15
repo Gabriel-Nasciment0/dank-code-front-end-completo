@@ -1,0 +1,21 @@
+@media screen and (max-width: 1030px) {
+    .headerContent .one {
+        width: 100%;
+        text-align: center;
+    }
+    .headerContent .two {
+        display: none;
+    }
+    nav.desktop {
+        display: none;
+    }
+    .HeaderTelefone {
+        display: none;
+    }
+    .headerContent .one form input {
+        display: inline-block;
+    }
+    section.HeaderContainer {
+        min-width: 400px;
+    }
+}

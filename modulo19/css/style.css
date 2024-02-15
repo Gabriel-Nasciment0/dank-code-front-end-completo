@@ -71,7 +71,65 @@ div.HeaderTelefone {
     top: -8px;
 }
 div.HeaderTelefone span {
-    font-size: 27px;
+    font-size: 22px;
     color: white;
     padding-left: 30px;
+}
+.headerContent {
+    padding: 60px 0;
+}
+.headerContent .one {
+    float: left;
+    width: 50%;
+}
+.headerContent .one h1 {
+    color: #509d87;
+    font-weight: normal;
+    font-size: 37px;
+}
+
+.headerContent .one {
+    padding: 10px 0;
+    font-size: 15px;
+}
+.headerContent .one form input {
+    display: inline-block;
+}
+.headerContent .one form input[type="email"] {
+    width: 251px;
+    height: 50px;
+    margin: 10px 0;
+    border: 3px solid #ccc;
+    border-radius: 80px;
+    padding-left: 15px;
+}
+.headerContent .one form input[type="email"]:focus {
+    outline: 0;
+}
+.headerContent .one form input[type="submit"] {
+    background: #00daaa;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    margin: 10px 0;
+    height: 50px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+}
+.headerContent .one span {
+    display: block;
+    color: #509d87;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.headerContent .two {
+    float: left;
+    width: 50%;
+    padding: 0 30px;
+}
+.headerContent .two img {
+    float: left;
+    width: 50%;
+    border: 15px solid rgba(0, 0, 0, 0);
 }
