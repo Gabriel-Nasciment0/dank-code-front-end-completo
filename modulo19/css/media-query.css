@@ -18,4 +18,8 @@
     section.HeaderContainer {
         min-width: 400px;
     }
+    .diferencialSingle {
+        width: 100%;
+        text-align: center;
+    }
 }
