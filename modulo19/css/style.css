@@ -144,6 +144,7 @@ section.diferenciais > .container {
 .diferencialSingle {
     width: 33.3%;
     margin-bottom: 30px;
+    padding: 0 15px;
 }
 .diferencialSingle img {
     max-width: 100%;
@@ -161,4 +162,30 @@ section.diferenciais > .container {
     color: #2d2d2d;
     font-size: 14px;
     font-weight: bold;
+}
+.sobre > .container {
+    max-width: 1440px;
+}
+.sobreContainer {
+    float: left;
+    width: 50%;
+}
+.padSobre{
+    padding: 10px 50px;
+}
+.sobreContainer img {
+    max-width: 100%;
+}
+.sobreContainer h2 {
+    font-size: 33px;
+    font-weight: normal;
+    color: #a9c4b8;
+    margin: 10px 0;
+}
+.sobreContainer h2 > b {
+    color: #03ca9f;
+}
+.sobreContainer p {
+    color: black;
+    font-size: 15px;
 }
