@@ -170,7 +170,7 @@ section.diferenciais > .container {
     float: left;
     width: 50%;
 }
-.padSobre{
+.padSobre {
     padding: 10px 50px;
 }
 .sobreContainer img {
@@ -188,4 +188,40 @@ section.diferenciais > .container {
 .sobreContainer p {
     color: black;
     font-size: 15px;
+}
+section.depoimento {
+    width: 100%;
+
+    padding-top: 300px;
+    padding-bottom: 200px;
+    background-image: url(/modulo19/img/bg_02.png);
+    background-size: cover;
+    text-align: center;
+    color: #2d2d2d;
+}
+section.depoimento h2 {
+    font-size: 29px;
+    font-weight: normal;
+}
+section.depoimento p {
+    font-size: 15px;
+}
+section.etapas {
+    padding: 40px 0;
+}
+section.etapas h2 {
+    text-align: center;
+    color: #3b3e42;
+}
+.etapas__single {
+    float: left;
+    width: 50%;
+}
+.etapas__group img {
+    float: left;
+    width: 50%;
+}
+.etapas__group p {
+    float: left;
+    width: 50%;
 }
