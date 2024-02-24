@@ -209,6 +209,9 @@ section.depoimento p {
 section.etapas {
     padding: 40px 0;
 }
+section.etapas .container {
+    max-width: 1300px;
+}
 section.etapas h2 {
     text-align: center;
     color: #3b3e42;
@@ -219,9 +222,52 @@ section.etapas h2 {
 }
 .etapas__group img {
     float: left;
-    width: 50%;
+    max-width: 100%;
 }
 .etapas__group p {
+    padding-top: 100px;
+    padding-left: 30px;
     float: left;
-    width: 50%;
+
+    color: #509d87;
+}
+.etapas__group02{
+    margin-bottom: 40px;
+}
+.etapas__group02 .circle {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.circle span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.etapas__descricao{
+    float: left;
+    width: calc(100% - 100px);
+    padding: 0 20px;
+}
+.etapas__descricao h3 {
+    color: #03ca9f;
+    font-size: 18px;
+}
+.etapas__descricao p{
+    color: #2d2d2d;
+    font-weight: bold;
+    font-size: 14px;
+}
+.line{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    z-index: 99999;
+    height: 40px;
+    width: 1px;
+    background: #000;
 }
