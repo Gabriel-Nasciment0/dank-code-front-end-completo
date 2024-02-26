@@ -22,7 +22,48 @@
         width: 100%;
         text-align: center;
     }
-    .sobreContainer{
+    .sobreContainer {
         width: 100%;
+    }
+    .sobre > .container {
+        z-index: 0;
+    }
+    section.depoimento {
+        top: 0;
+    }
+    .etapas__group{
+        margin-bottom: 40px;
+    }
+    .etapas__group img {
+        display: block;
+        float: none;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .etapas__single .etapas__group:nth-of-type(1) img {
+        max-width: 100%;
+        margin: 0 auto;
+        width: auto;
+    }
+    .etapas__group p {
+        width: 100%;
+        text-align: center;
+        display: block;
+        padding-top: 10px;
+        padding-left: 0px;
+        float: none;
+    }
+}
+@media screen and (max-width: 900px) {
+    .etapas__single {
+        width: 100%;
+    }
+    section.etapas .container {
+        max-width: 700px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .etapas__group02{
+        display: none;
     }
 }

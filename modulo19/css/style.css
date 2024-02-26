@@ -135,6 +135,7 @@ div.HeaderTelefone span {
 }
 /* diferenciais */
 section.diferenciais {
+
     padding: 40px 0;
 }
 section.diferenciais > .container {
@@ -165,6 +166,7 @@ section.diferenciais > .container {
 }
 .sobre > .container {
     max-width: 1440px;
+    z-index: 2;
 }
 .sobreContainer {
     float: left;
@@ -190,6 +192,9 @@ section.diferenciais > .container {
     font-size: 15px;
 }
 section.depoimento {
+    position: relative;
+    top: -110px;
+    z-index: 3;
     width: 100%;
 
     padding-top: 300px;
@@ -224,14 +229,18 @@ section.etapas h2 {
     float: left;
     max-width: 100%;
 }
+.etapas__single .etapas__group:nth-of-type(1) img {
+    width: 50%;
+}
 .etapas__group p {
+    width: 50%;
     padding-top: 100px;
     padding-left: 30px;
     float: left;
 
     color: #509d87;
 }
-.etapas__group02{
+.etapas__group02 {
     margin-bottom: 40px;
 }
 .etapas__group02 .circle {
@@ -248,7 +257,7 @@ section.etapas h2 {
     top: 50%;
     transform: translate(-50%, -50%);
 }
-.etapas__descricao{
+.etapas__descricao {
     float: left;
     width: calc(100% - 100px);
     padding: 0 20px;
@@ -257,12 +266,12 @@ section.etapas h2 {
     color: #03ca9f;
     font-size: 18px;
 }
-.etapas__descricao p{
+.etapas__descricao p {
     color: #2d2d2d;
     font-weight: bold;
     font-size: 14px;
 }
-.line{
+.line {
     position: absolute;
     top: 100px;
     left: 50%;
