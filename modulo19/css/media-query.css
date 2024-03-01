@@ -19,6 +19,7 @@
         min-width: 400px;
     }
     .diferencialSingle {
+    
         width: 100%;
         text-align: center;
     }
@@ -52,6 +53,12 @@
         padding-top: 10px;
         padding-left: 0px;
         float: none;
+    }
+    .diferencas__single{
+        float: left;
+        width: 100%;
+        margin-bottom: 40px;
+        border-right: 0 !important;
     }
 }
 @media screen and (max-width: 900px) {
