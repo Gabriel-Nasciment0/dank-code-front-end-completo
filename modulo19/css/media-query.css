@@ -19,7 +19,6 @@
         min-width: 400px;
     }
     .diferencialSingle {
-    
         width: 100%;
         text-align: center;
     }
@@ -32,7 +31,7 @@
     section.depoimento {
         top: 0;
     }
-    .etapas__group{
+    .etapas__group {
         margin-bottom: 40px;
     }
     .etapas__group img {
@@ -54,11 +53,17 @@
         padding-left: 0px;
         float: none;
     }
-    .diferencas__single{
+    .diferencas__single {
         float: left;
         width: 100%;
         margin-bottom: 40px;
         border-right: 0 !important;
+    }
+    nav.desktop {
+        display: none;
+    }
+    nav.mobile {
+        display: block;
     }
 }
 @media screen and (max-width: 900px) {
@@ -70,7 +75,7 @@
     }
 }
 @media screen and (max-width: 500px) {
-    .etapas__group02{
+    .etapas__group02 {
         display: none;
     }
 }

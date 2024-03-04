@@ -37,20 +37,31 @@ div.logo {
     background-image: url(/modulo19/img/logo.png);
     background-size: 100% 100%;
 }
-header nav {
+nav.mobile {
+    display: none;
+    float: right;
+}
+nav.mobile h3{
+    color: white;
+    font-size: 22px;
+}
+nav.mobile ul {
+    display: none;
+}
+header.desktop nav {
     float: left;
     padding-left: 60px;
 }
-header nav ul {
+header nav.desktop ul {
     list-style-type: none;
 }
-header li {
+header nav.desktop li {
     display: inline-block;
     padding: 0 30px;
     font-size: 16px;
     color: white;
 }
-header li a {
+header nav.desktop li a {
     color: inherit;
     text-decoration: none;
 }
@@ -65,12 +76,8 @@ li.selected > span {
     height: 3px;
     background: #509d87;
 }
-div.HeaderTelefone {
-    float: left;
-    position: relative;
-    top: -8px;
-}
-div.HeaderTelefone span {
+
+span.headerTelefone {
     font-size: 22px;
     color: white;
     padding-left: 30px;
@@ -333,21 +340,45 @@ section.contato h2 {
     columns: #509d87;
     font-size: 24px;
 }
-section.contato .formGroup{
+section.contato p {
+    font-size: 14px;
+    border-bottom: 1px solid #509d87;
+    padding: 10px 0;
+    color: #509d87;
+}
+section.contato .formGroup {
     margin-top: 10px;
 }
-section.contato input[type=text]{
+section.contato input[type="text"] {
     width: 100%;
     height: 40px;
     border-radius: 40px;
-    padding-left: 8px;
+    padding-left: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
 }
-section.contato textarea{
+section.contato input[type="text"]:focus {
+    outline: 0;
+}
+section.contato textarea {
     width: 100%;
     height: 120px;
     padding: 8px;
     border: 1px solid #ccc;
     resize: none;
+}
+section.contato input[type="submit"] {
+    width: 170px;
+    height: 60px;
+    border-radius: 100px;
+    background: #0ed2a7;
+    color: white;
+    border: 0;
+    font-weight: bolder;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background: #6cc5b2;
 }

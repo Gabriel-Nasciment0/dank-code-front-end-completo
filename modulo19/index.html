@@ -29,13 +29,23 @@
                         <li><span></span><a href="#">Beneficios</a></li>
                         <li><span></span><a href="#">Serve para mim?</a></li>
                         <li><span></span><a href="#">Contato</a></li>
+                        <span class="headerTelefone">(12) 34567-7890</span>
                     </ul>
-                </nav>
 
-                <div class="HeaderTelefone">
-                    <span>(12) 34567-7890</span>
-                </div><!--HeaderTelefone-->
-                <div class="clear"></div>
+                   
+                    <div class="clear"></div>
+                </nav><!--desktop-->
+
+                <nav class="mobile">
+                    <h3><i class="fa fa-bars"></i>MAOII</h3>
+                    <ul>
+                        <li><span></span><a href="# ">invisalign</a></li>
+                        <li><span></span><a href="#">Beneficios</a></li>
+                        <li><span></span><a href="#">Serve para mim?</a></li>
+                        <li><span></span><a href="#">Contato</a></li>
+                    </ul>
+
+                </nav><!--mobile-->
             </div><!--div.container-->
         </header>
         <div class="headerContent">
@@ -285,6 +295,8 @@
     <section class="contato">
         <div class="container">
             <h2>Entre em contato</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Voluptatibus repellendus quam non nam, ut
+                id dolorem veniam. <br> Animi praesentium velit obcaecati! Temporibus unde.</p>
             <form action="">
                 <div class="formGroup">
                     <input type="text" name="NOME" placeholder="NOME" required>
@@ -299,13 +311,22 @@
 
                 </div><!--formGroup-->
                 <div class="formGroup">
-                    <textarea name="mensagem" placeholder="Opcional" id="Imensagem">
+                    <textarea placeholder="Opcional" name="mensagem" id="Imensagem">
                 </textarea>
+                </div><!--formGroup-->
+                <div class="formGroup">
+                    <input type="submit" name="acao" value="Enviar!">
                 </div><!--formGroup-->
             </form>
         </div><!--form-->
     </section><!--contato-->
 
+    <footer>
+        <div class="container">
+
+            <img src="img/logo.png" alt="logo">
+        </div><!--container-->
+    </footer>
 
 
     <!-- falta menu mobile -->
@@ -322,7 +343,7 @@
     <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript">
-        $('nav a').hover(function () {
+        $('nav.desktop a').hover(function () {
             $('nav li').removeClass('selected');
             $(this).parent().addClass('selected');
         })
