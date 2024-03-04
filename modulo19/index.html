@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-query.css">
+    <link rel="stylesheet" href="fcss/fontawesome.min.css">
     <title>Monguilhott </title>
 </head>
 
@@ -32,12 +33,12 @@
                         <span class="headerTelefone">(12) 34567-7890</span>
                     </ul>
 
-                   
+
                     <div class="clear"></div>
                 </nav><!--desktop-->
 
                 <nav class="mobile">
-                    <h3><i class="fa fa-bars"></i>MAOII</h3>
+                    <h3><i class="fa-solid fa-bars"></i></h3>
                     <ul>
                         <li><span></span><a href="# ">invisalign</a></li>
                         <li><span></span><a href="#">Beneficios</a></li>
@@ -328,24 +329,15 @@
         </div><!--container-->
     </footer>
 
-
-    <!-- falta menu mobile -->
-    <!--falta scrool com jquery-->
-
-
-
-
-
-
-
-
-
     <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript">
         $('nav.desktop a').hover(function () {
             $('nav li').removeClass('selected');
             $(this).parent().addClass('selected');
+        })
+        $('nav.mobile h3').click(function () {
+            $(this).next().slideToggle();
         })
     </script>
 </body>

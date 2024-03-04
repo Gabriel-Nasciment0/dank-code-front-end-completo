@@ -1,4 +1,8 @@
 @media screen and (max-width: 1030px) {
+    .HeaderContainer header {
+        border-bottom: 3px solid rgba(71, 83, 88, 0.15);
+        padding-bottom: 90px;
+    }
     .headerContent .one {
         width: 100%;
         text-align: center;
@@ -64,6 +68,25 @@
     }
     nav.mobile {
         display: block;
+    }
+    nav.mobile ul {
+        display: none;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 62px;
+        background: #6cc5b2;
+        list-style-type: none;
+    }
+    nav.mobile ul li {
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    nav.mobile a {
+        color: white;
+        text-decoration: none;
     }
 }
 @media screen and (max-width: 900px) {
