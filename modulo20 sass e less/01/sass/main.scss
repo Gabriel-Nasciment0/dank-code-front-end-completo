@@ -1,6 +1,30 @@
-@import url(reset.scss);
+@import url(reset.css);
+$corBg: rgb(100, 100, 100);
+$fontSize: 20px;
+
+@mixin trocarCor($par) {
+    background-color: $par;
+    margin-left: 90px;
+}
+
+@mixin setarLargura($tamanho) {
+    width: $tamanho;
+}
+
+.sucesso {
+    background: green;
+}
+.container {
+    width: 900px + 150px;
+    height: 900px;
+    margin: 0 auto;
+}
 div {
-    background: $corBg;
+    @include trocarCor(rgb(100, 100, 100));
+    @include setarLargura(1000px);
+    height: 300px;
+    margin: 0 auto;
+
     h1 {
         text-align: center;
     }
@@ -9,4 +33,9 @@ div {
         text-align: center;
         color: #000;
     }
+}
+
+section {
+    @extend .container;
+    @extend.sucesso;
 }

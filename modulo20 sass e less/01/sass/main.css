@@ -1,17 +1,26 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url(reset.css);
+.sucesso, section {
+  background: green;
+}
+
+.container, section {
+  width: 1050px;
+  height: 900px;
+  margin: 0 auto;
 }
 
 div {
-    background: rgb(100, 100, 100);
+  background-color: rgb(100, 100, 100);
+  margin-left: 90px;
+  width: 1000px;
+  height: 300px;
+  margin: 0 auto;
 }
 div h1 {
-    text-align: center;
+  text-align: center;
 }
 div p {
-    font-size: 19px;
-    text-align: center;
-    color: #000;
-} /*# sourceMappingURL=main.css.map */
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+}/*# sourceMappingURL=main.css.map */
