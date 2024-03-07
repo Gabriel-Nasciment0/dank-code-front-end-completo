@@ -1,5 +1,12 @@
-* {
-    margin: 0;
-    padding: 0px;
-    box-sizing: border-box;
+@import url(reset.scss);
+div {
+    background: $corBg;
+    h1 {
+        text-align: center;
+    }
+    p {
+        font-size: $fontSize;
+        text-align: center;
+        color: #000;
+    }
 }
