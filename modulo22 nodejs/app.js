@@ -29,5 +29,23 @@ db.connect(function (err) {
 });
 
 app.get("/", function (req, res) {
-    res.render("index", {});
+    let query = db.query("select * from clientes", function (err, results) {
+        res.render("index", { lista: results });
+    });
+});
+
+app.get("/registrar", function (req, res) {
+    res.render("cadastro", {});
+});
+app.post("/registrar", function (rec, res) {
+    console.log("cadastro realizado com sucesso");
+    let nome = rec.body.nome;
+    let sobrenome = rec.body.sobrenome;
+    let empresa = rec.body.empresa;
+    db.query(
+        "INSERT INTO clientes(nome,sobrenome,empresa) VALUE(?,?,?,)",
+        [nome, sobrenome, empresa],
+        function (err, results) {}
+    );
+    res.render("cadastro", {});
 });

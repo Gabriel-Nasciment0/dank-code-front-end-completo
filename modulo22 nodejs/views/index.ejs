@@ -8,7 +8,14 @@
 </head>
 
 <body>
-
+    <h2>clientes cadastrados</h2>
+    <ul>
+        <% lista.forEach(function(user){ %>
+            <li>
+                <%=user.nome%>
+            </li>
+<% }) %>
+    </ul>
 </body>
 
 </html>
