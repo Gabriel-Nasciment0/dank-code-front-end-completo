@@ -14,7 +14,7 @@ html {
     background: blue;
 }
 .clear {
-    clear: both;
+    clear: both;-
 }
 .child {
     float: left;
